@@ -1,0 +1,260 @@
+/* Index.html */
+* {
+    background-color: black;
+}
+
+li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+li .nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.first-nav, .sec-nav {
+    padding: 0 15px;
+}
+
+.material-icons {
+    color: #ffffff;
+}
+
+.divider {
+    padding: 2px;
+    margin-top: 4px;
+    margin-right: 6px;
+}
+
+.setting {
+    margin-top: 7px;
+}
+
+.getintouch {
+    margin-top: 70px;
+    margin-left: 200px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form .form-element {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#form-name, #form-email {
+    width: 478px;
+    height: 41px;
+    border: #ffffff solid 1px;
+}
+
+#form-complaint {
+    width: 788px;
+    height: 250px;
+    border: #ffffff solid 1px;
+}
+
+form input {
+    color: #ffffff;
+}
+
+.button {
+    margin: 40px auto;
+    display: grid;
+    justify-content: center;
+}
+
+button {
+    width: 180px;
+    height: 41px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.separator {
+    margin: auto;
+    padding-top: 40px;
+}
+
+.enquiry {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.enquiry .head {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.enquiry .enq-items {
+    padding-left: 15px;
+}
+
+.old-enq {
+    margin-top: 70px;
+    margin-left: 200px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    width: 1120px;
+}
+
+.old-enq h3 {
+    font-weight: 700;
+}
+
+.old-enq span {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.old-enq button {
+    background-color: transparent;
+    border: white 1px solid;
+    width: 100%;
+    margin-top: 25px;
+}
+
+/* Complaints.html */
+.parent {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+}
+
+.container-fluid .left-col {
+    background-color: #161616;
+    width: 25vw;
+    height:75vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-col .received, .left-col .replied,.left-col .draft {
+    height: 35px;
+    width: 90%;
+    top: 110px;
+    border-radius: 20px;
+    /* background-color: #2F2F2F; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.received i, .replied i, .draft i {
+    background-color: #161616;
+}
+
+.received:hover {
+    background-color: #2f2f2f;    
+}
+
+.received:hover i {
+    background-color: #2f2f2f;  
+}
+
+.received:hover span {
+    background-color: #2f2f2f;  
+}
+
+.replied:hover {
+    background-color: #2f2f2f;    
+}
+
+.replied:hover i {
+    background-color: #2f2f2f;  
+}
+
+.replied:hover span {
+    background-color: #2f2f2f;  
+}
+
+.draft:hover {
+    background-color: #2f2f2f;    
+}
+
+.draft:hover i {
+    background-color: #2f2f2f;  
+}
+
+.draft:hover span {
+    background-color: #2f2f2f;  
+}
+
+.received span, .replied span, .draft span {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #161616;
+}
+
+.right-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.aboveHeading {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 4px;
+}
+
+.right-col .heading {
+    background-color: #161616;
+    width: 100%;
+    height: 7.5vw;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.heading h2 {
+    background-color: #161616;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.heading p {
+    padding-left: 20px;
+    background-color: #161616;
+    padding-top: 13px;
+}
+
+.filterBtn {
+    background-color: #161616;
+    padding-top: 28px;
+}
+
+.filterBtn button {
+    background: #2F2F2F;
+    height: 41px;
+    width: 142px;
+    left: 1089px;
+    top: 110px;
+    border-radius: 23.428571701049805px;
+    margin-right: 15px;
+}
+
+.belowHeading {
+    margin-top: 20px;
+}
+
+.dept {
+    padding-left: 15px;
+}
+
+.table-col {
+    padding-bottom: 15px;
+}
+
+.table-col1 {
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-between;
+}
